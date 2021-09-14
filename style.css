@@ -28,7 +28,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 30px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -234,6 +234,7 @@ section .title::after{
 .about .about-content .right p{
     padding-right: 60px;
     text-align: justify;
+color:#333;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -312,23 +313,29 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    
 }
 .skills .skills-content .left p{
     text-align: justify;
+    color:#333;
 }
-.skills .skills-content .left a{
+.skills .skills-content .left button{
     display: inline-block;
     background: rgb(6, 126, 126);
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 6px 12px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid rgb(6, 126, 126);
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+i{
+color:#333;
+}
+
+.skills .skills-content .left button:hover{
     color: rgb(6, 126, 126);
     background: none;
 }
@@ -366,16 +373,16 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 70%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 40%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
 }
 .skills-content .right .react::before{
-    width: 40%;
+    width: 50%;
 }
 
 /* contact section styling */
@@ -391,6 +398,7 @@ section .title::after{
 }
 .contact  p{
     text-align: center;
+color:#333;
 }
 .contact .icons{
     display: flex;
